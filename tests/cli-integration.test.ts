@@ -92,7 +92,7 @@ describe("CLI Integration Tests", () => {
 		const result = runCLI("--version");
 
 		expect(result.exitCode).toBe(0);
-		expect(result.stdout).toContain("1.0.1");
+		expect(result.stdout).toContain("1.0.2");
 	});
 
 	it("should handle invalid commands gracefully", () => {
